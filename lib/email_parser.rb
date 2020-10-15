@@ -13,7 +13,9 @@ class EmailAddressParser
     #array = @list.split(", ")
     array = @list.split(/[\s,]/)
 
+    #if the element is inside array
     array.uniq!
+    #else ignore
 
   end
 
