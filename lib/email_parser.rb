@@ -14,6 +14,11 @@ class EmailAddressParser
     array = @list.split(/(,\s)|(\s)/)
     array.delete_if{|e| e.length <= 2 }
 
+    if array.uniq.length == a.length
+      true
+    else
+      puts "a does contain duplicates"
+    end
     #if the element is inside array
     #array.uniq!
     #else ignore
