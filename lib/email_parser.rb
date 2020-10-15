@@ -13,12 +13,6 @@ class EmailAddressParser
     #array = @list.split(", ")
     array = @list.split(/[\s,]/)
 
-    #@list.collect do |e|
-    #  if e.include?(" ")
-    #    e.split(" ")
-    #  end
-    #end
-
   end
 
 end
