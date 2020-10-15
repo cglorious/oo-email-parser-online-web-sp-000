@@ -11,6 +11,7 @@ class EmailAddressParser
 
   def parse
     array = @list.split(", ")
+    array.map do |e|
     array.split(" ")
     array
     #array = @list.split(/[\s,]/)
