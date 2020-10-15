@@ -19,7 +19,6 @@ class EmailAddressParser
       array.uniq!
       array
     end
-
   end
 
 end
