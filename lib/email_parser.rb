@@ -15,7 +15,7 @@ class EmailAddressParser
       if e.include?(" ")
         e.split(" ")
       end
-      array
+      #array
     end
     #array = @list.split(/[\s,]/)
 
