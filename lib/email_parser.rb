@@ -10,16 +10,8 @@ class EmailAddressParser
   end
 
   def parse
-    array = @list.split(", ")
-    array.map do |e|
-      if e.include?(" ")
-        e.split(" ")
-        array.flatten
-      else
-        array
-      end
-    end
-    #array = @list.split(/[\s,]/)
+    #array = @list.split(", ")
+    array = @list.split(/[\s,]/)
 
     #@list.collect do |e|
     #  if e.include?(" ")
