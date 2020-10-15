@@ -12,6 +12,7 @@ class EmailAddressParser
   def parse
     array = @list.split(", ")
     array.split(" ")
+    array
     #array = @list.split(/[\s,]/)
 
     #@list.collect do |e|
