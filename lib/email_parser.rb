@@ -13,7 +13,7 @@ class EmailAddressParser
     #array = @list.split(", ")
     array = @list.split(/[\s,]/)
 
-    array.uniq
+    array.uniq!
 
   end
 
