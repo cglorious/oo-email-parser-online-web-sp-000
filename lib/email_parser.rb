@@ -17,7 +17,8 @@ class EmailAddressParser
     if array.uniq.length == array.length
       true
     else
-      puts "a does contain duplicates"
+      array.uniq!
+      array
     end
     #if the element is inside array
     #array.uniq!
