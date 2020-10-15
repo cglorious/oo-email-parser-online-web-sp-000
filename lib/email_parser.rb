@@ -15,7 +15,7 @@ class EmailAddressParser
     array.delete_if{|e| e.length <= 2 }
 
     if array.uniq.length == array.length
-      true
+      array
     else
       array.uniq!
       array
