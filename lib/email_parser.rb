@@ -11,7 +11,7 @@ class EmailAddressParser
 
   def parse
     #array = @list.split(", ")
-    array = @list.split(", "|" ")
+    array = @list.split(/(,\s)|(\s)/)
 
     #if the element is inside array
     array.uniq!
